@@ -142,3 +142,22 @@ body{
   transition: background 0.5s;
 }
 
+.btn1{
+  display: block;
+  margin:  auto;
+  margin-bottom: 30px;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color:#fff;
+  
+
+}
+
+.btn1:hover{
+  background: #ff004f;
+  transition: background 0.5s;
+}
+
