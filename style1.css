@@ -17,10 +17,6 @@ body{
     box-sizing: border-box;
   }
   
-  html{
-    scroll-behavior: smooth;
-  }
-  
  
   .portfolio-header h2 {
     font-size: 2.5rem;
@@ -127,3 +123,22 @@ body{
     grid-template-columns: 1fr; /* Stack items for smaller screens */
   }
 }
+
+.btn{
+  display: block;
+  margin:  auto;
+  margin-bottom: 30px;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color:#fff;
+
+}
+
+.btn:hover{
+  background: #ff004f;
+  transition: background 0.5s;
+}
+
